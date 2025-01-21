@@ -1,5 +1,5 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i dash --pure -I channel:nixos-23.11-small -p dash coreutils
+#! nix-shell -i dash --pure -I channel:nixos-24.11-small -p dash coreutils
 
 key="$1"
 getset="${2:-}"
